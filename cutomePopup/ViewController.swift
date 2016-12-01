@@ -8,11 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIScrollViewDelegate {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        setUpScrollView()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +25,22 @@ class ViewController: UIViewController {
     }
 
 
+    /*ScrollView*/
+    func setUpScrollView() {
+        scrollView.backgroundColor = UIColor.lightGray
+        scrollView.contentSize = CGSize(width: self.view.frame.size.width, height: 750)
+        scrollView.indicatorStyle = .white
+        scrollView.scrollIndicatorInsets = UIEdgeInsets(top: 10, left: 5, bottom: 10, right: 5)
+        scrollView.delegate = self
+        self.view.addSubview(scrollView)
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        print("didScroll")
+    }
+    
+    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        print("beginDragging")
+    }
 }
 
