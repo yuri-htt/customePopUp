@@ -17,16 +17,21 @@ class popupViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        backGroundView.alpha = 0.5
-        popupView.alpha = 1
-        popupView.center = self.view.center
-        dogImageView.alpha = 1
+        setUpLayout()
         
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    // MARK: - Functions
+    func setUpLayout() {
+        backGroundView.alpha = 0.5
+        popupView.alpha = 1
+        popupView.center = self.view.center
+        dogImageView.alpha = 1
     }
     
     // MARK: - ButtonActions
