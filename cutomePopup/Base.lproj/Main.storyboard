@@ -15,11 +15,11 @@
                         <viewControllerLayoutGuide type="bottom" id="8Td-PN-BYQ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="T99-N1-hnu">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="720"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="680"/>
+                        <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v7N-CU-m5q">
-                                <frame key="frameInset" width="320" height="667"/>
+                                <frame key="frameInset" width="320" height="681"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topBgImg" translatesAutoresizingMaskIntoConstraints="NO" id="SBv-DS-KNo">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="435"/>
@@ -45,14 +45,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="v7N-CU-m5q" firstAttribute="centerX" secondItem="T99-N1-hnu" secondAttribute="centerX" id="YgJ-SI-zq3"/>
-                            <constraint firstItem="v7N-CU-m5q" firstAttribute="centerY" secondItem="T99-N1-hnu" secondAttribute="centerY" id="bFb-vM-DkT"/>
-                            <constraint firstItem="v7N-CU-m5q" firstAttribute="width" secondItem="T99-N1-hnu" secondAttribute="width" id="hsE-Kb-HrC"/>
-                            <constraint firstItem="v7N-CU-m5q" firstAttribute="height" secondItem="T99-N1-hnu" secondAttribute="height" id="ioo-I9-ZpB"/>
+                            <constraint firstItem="v7N-CU-m5q" firstAttribute="top" secondItem="T99-N1-hnu" secondAttribute="top" id="40G-i0-Vm5"/>
+                            <constraint firstItem="v7N-CU-m5q" firstAttribute="leading" secondItem="T99-N1-hnu" secondAttribute="leading" id="9Rh-Ao-4Pe"/>
+                            <constraint firstAttribute="trailing" secondItem="v7N-CU-m5q" secondAttribute="trailing" id="eon-f2-zC6"/>
+                            <constraint firstItem="8Td-PN-BYQ" firstAttribute="top" secondItem="v7N-CU-m5q" secondAttribute="bottom" id="y8t-YX-cXE"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="720"/>
+                    <size key="freeformSize" width="320" height="680"/>
                     <connections>
                         <outlet property="scrollView" destination="v7N-CU-m5q" id="uzz-91-PFC"/>
                     </connections>
@@ -64,7 +64,7 @@
         <!--Popup View Controller-->
         <scene sceneID="Qzd-BT-ypI">
             <objects>
-                <viewController id="6MU-4p-K7Q" customClass="popupViewController" customModule="cutomePopup" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="6MU-4p-K7Q" customClass="popupViewController" customModule="cutomePopup" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kRt-5c-1xJ"/>
                         <viewControllerLayoutGuide type="bottom" id="1YL-v6-S9K"/>
@@ -125,10 +125,9 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="710"/>

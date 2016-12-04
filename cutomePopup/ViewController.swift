@@ -27,9 +27,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
 
     /*ScrollView*/
     func setUpScrollView() {
-        scrollView.backgroundColor = UIColor.lightGray
-        scrollView.contentSize = CGSize(width: self.view.frame.size.width, height: 750)
-        scrollView.indicatorStyle = .white
+        scrollView.contentSize = CGSize(width: self.view.frame.size.width, height: 700)
         scrollView.scrollIndicatorInsets = UIEdgeInsets(top: 10, left: 5, bottom: 10, right: 5)
         scrollView.delegate = self
         self.view.addSubview(scrollView)

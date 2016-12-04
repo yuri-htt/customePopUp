@@ -17,7 +17,6 @@ class popupViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //fix
         setUpLayout()
         
     }
@@ -29,10 +28,7 @@ class popupViewController: UIViewController {
     
     // MARK: - Functions
     func setUpLayout() {
-        backGroundView.alpha = 0.5
-        popupView.alpha = 1
         popupView.center = self.view.center
-        dogImageView.alpha = 1
     }
     
     // MARK: - ButtonActions
