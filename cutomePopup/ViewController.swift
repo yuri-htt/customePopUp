@@ -45,7 +45,14 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     @IBAction func didPressDeleteTeamButton(_ sender: AnyObject) {
         
         let storyboard: UIStoryboard = self.storyboard!
+        //let storyboard: UIStoryboard = UIStoryboard(name: "storyboardName", bundle: nil)
+        
         let nextView = storyboard.instantiateViewController(withIdentifier: "confirmPopupView") as! popupViewController
+        /*
+          confirmPopupView   :Cancel or OK
+          alertPoupView      :OK
+          textFieldPopupView :textFiekd OK
+          */
         self.present(nextView, animated: true, completion: nil)
         
     }
