@@ -17,7 +17,7 @@ class popupViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //
+        //fix
         setUpLayout()
         
     }
