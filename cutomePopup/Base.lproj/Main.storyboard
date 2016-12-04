@@ -36,9 +36,6 @@
                                         <state key="normal" title="チームを削除する">
                                             <color key="titleColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="6MU-4p-K7Q" kind="presentation" id="1tc-43-w1k"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
@@ -64,7 +61,7 @@
         <!--Popup View Controller-->
         <scene sceneID="Qzd-BT-ypI">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="6MU-4p-K7Q" customClass="popupViewController" customModule="cutomePopup" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="confirmPopupView" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6MU-4p-K7Q" customClass="popupViewController" customModule="cutomePopup" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kRt-5c-1xJ"/>
                         <viewControllerLayoutGuide type="bottom" id="1YL-v6-S9K"/>
@@ -144,7 +141,7 @@
         <!--Popup View Controller-->
         <scene sceneID="YEz-dG-afQ">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="oSa-OO-MwM" customClass="popupViewController" customModule="cutomePopup" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="alertPoupView" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oSa-OO-MwM" customClass="popupViewController" customModule="cutomePopup" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s3m-hx-eeZ"/>
                         <viewControllerLayoutGuide type="bottom" id="Fv3-R4-1kx"/>
@@ -214,7 +211,7 @@
         <!--Popup View Controller-->
         <scene sceneID="5TW-nO-9g9">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="RDt-Vi-6Sg" customClass="popupViewController" customModule="cutomePopup" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="textFieldPopupView" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RDt-Vi-6Sg" customClass="popupViewController" customModule="cutomePopup" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EFD-Ki-RBU"/>
                         <viewControllerLayoutGuide type="bottom" id="ffn-Cv-aps"/>
