@@ -40,5 +40,16 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         print("beginDragging")
     }
+    
+    /*button action*/
+    @IBAction func didPressDeleteTeamButton(_ sender: AnyObject) {
+        
+        let storyboard: UIStoryboard = self.storyboard!
+        let nextView = storyboard.instantiateViewController(withIdentifier: "confirmPopupView") as! popupViewController
+        self.present(nextView, animated: true, completion: nil)
+        
+    }
+
+    
 }
 

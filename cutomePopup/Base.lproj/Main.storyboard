@@ -36,6 +36,9 @@
                                         <state key="normal" title="チームを削除する">
                                             <color key="titleColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="didPressDeleteTeamButton:" destination="WPi-49-jAo" eventType="touchUpInside" id="isu-2F-UOO"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
