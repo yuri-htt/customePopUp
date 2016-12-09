@@ -59,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fle-aM-Ke0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="126.40000000000001" y="95.352323838080963"/>
+            <point key="canvasLocation" x="134" y="95"/>
         </scene>
         <!--Popup View Controller-->
         <scene sceneID="Qzd-BT-ypI">
@@ -70,10 +70,10 @@
                         <viewControllerLayoutGuide type="bottom" id="1YL-v6-S9K"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RIz-Bm-V2G">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="710"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="680"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="haH-0P-pRA">
+                            <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="haH-0P-pRA">
                                 <frame key="frameInset" width="320" height="750"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -130,7 +130,7 @@
                         </subviews>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="710"/>
+                    <size key="freeformSize" width="320" height="680"/>
                     <connections>
                         <outlet property="backGroundView" destination="haH-0P-pRA" id="Ljz-tA-ool"/>
                         <outlet property="dogImageView" destination="f8i-IP-QiY" id="Oqt-6p-xWl"/>
@@ -139,7 +139,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1GT-7X-Ha5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="971" y="95"/>
+            <point key="canvasLocation" x="811" y="94"/>
         </scene>
         <!--Popup View Controller-->
         <scene sceneID="YEz-dG-afQ">
@@ -209,7 +209,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bST-hG-4n8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="969.60000000000002" y="796.10194902548733"/>
+            <point key="canvasLocation" x="882" y="1116"/>
         </scene>
         <!--Popup View Controller-->
         <scene sceneID="5TW-nO-9g9">

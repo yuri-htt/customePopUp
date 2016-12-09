@@ -58,11 +58,11 @@
 			children = (
 				DA116A1A1DF065C6000759B1 /* AppDelegate.swift */,
 				DA116A1C1DF065C6000759B1 /* ViewController.swift */,
+				DA116A2E1DF08D59000759B1 /* popupViewController.swift */,
 				DA116A1E1DF065C6000759B1 /* Main.storyboard */,
 				DA116A211DF065C6000759B1 /* Assets.xcassets */,
 				DA116A231DF065C6000759B1 /* LaunchScreen.storyboard */,
 				DA116A261DF065C6000759B1 /* Info.plist */,
-				DA116A2E1DF08D59000759B1 /* popupViewController.swift */,
 			);
 			path = cutomePopup;
 			sourceTree = "<group>";
@@ -304,6 +304,7 @@
 				DA116A2B1DF065C6000759B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
